@@ -471,7 +471,7 @@ class APIUI : public PathBuilder, public Meta, public UI
          * Used to edit gyroscope curves and mapping. Set curve and related mapping for a given UI parameter.
          *
          * @param p - the UI parameter index
-         * @param acc - 0 for X gyroscope, 1 for Y gyroscope, 2 for Z gyroscope (-1 means "no mapping")
+         * @param gyr - 0 for X gyroscope, 1 for Y gyroscope, 2 for Z gyroscope (-1 means "no mapping")
          * @param curve - between 0 and 3
          * @param amin - mapping 'min' point
          * @param amid - mapping 'middle' point
